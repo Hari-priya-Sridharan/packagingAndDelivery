@@ -20,7 +20,7 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("classpath:config.properties")
 public class PackagingAndDeliveryConfig {
 	
-	@Value("${integral.pakcage.cost:${integral.pakcage.cost.default}}")
+	@Value("${integral.pakcage.cost:100}")
 	private int integralItemPackageCost;
 	
 	@Value("${accessory.package.cost:$accessory.package.cost.default}}")
@@ -36,11 +36,11 @@ public class PackagingAndDeliveryConfig {
 	private int accessoryDeliveryCost;
 
 	//------------Set pre-defined values to packageAndDelivery object----------//
-	public packagingAndDelivery setPredefinedCost() {
+	public PackagingAndDelivery setPredefinedCost() {
 		
 		//*******Create packageAndDelivery object*******//
 		
-		packagingAndDelivery pd=new packagingAndDelivery();
+		PackagingAndDelivery pd=new PackagingAndDelivery();
 		
 		//*******calling setter to set the cost*******//
 		

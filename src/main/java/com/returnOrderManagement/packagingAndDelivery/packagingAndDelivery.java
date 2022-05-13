@@ -1,6 +1,6 @@
 package com.returnOrderManagement.packagingAndDelivery;
 
-public class packagingAndDelivery {
+public class PackagingAndDelivery {
 	private int integralItemPackageCost;
 	private int accessoryPackageCost;
 	private int sheathPackageCost;
