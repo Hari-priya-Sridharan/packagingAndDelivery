@@ -1,0 +1,84 @@
+2022-05-13 23:32:47,550 [main] INFO   c.r.p.PackagingAndDeliveryApplication - Starting PackagingAndDeliveryApplication using Java 16.0.2 on LTIN172959 with PID 6676 (C:\Users\842186\OneDrive - Cognizant\Documents\FSE-ROM\packagingAndDelivery.zip_expanded\packagingAndDelivery\target\classes started by 842186 in C:\Users\842186\OneDrive - Cognizant\Documents\FSE-ROM\packagingAndDelivery.zip_expanded\packagingAndDelivery)
+2022-05-13 23:32:47,559 [main] INFO   c.r.p.PackagingAndDeliveryApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-13 23:32:49,122 [main] INFO   o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 23:32:49,153 [main] INFO   o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2022-05-13 23:32:49,561 [main] INFO   o.s.c.context.scope.GenericScope - BeanFactory id=5c13016f-4753-32ae-8ecb-1896d5764f29
+2022-05-13 23:32:50,414 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-05-13 23:32:50,457 [main] INFO   o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-13 23:32:50,458 [main] INFO   o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-13 23:32:50,458 [main] INFO   o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 23:32:50,870 [main] INFO   o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-13 23:32:50,870 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3192 ms
+2022-05-13 23:32:51,251 [main] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-05-13 23:32:51,710 [main] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-05-13 23:32:51,839 [main] INFO   o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 23:32:51,990 [main] INFO   org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-13 23:32:52,484 [main] INFO   o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-13 23:32:52,787 [main] INFO   org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-13 23:32:53,379 [main] INFO   o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 23:32:53,405 [main] INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 23:32:53,516 [main] WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 23:32:54,083 [main] WARN   o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-13 23:32:55,541 [main] INFO   o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-05-13 23:32:55,661 [main] INFO   o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-05-13 23:32:55,696 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-13 23:32:57,029 [main] INFO   o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-05-13 23:32:57,045 [main] INFO   c.r.p.PackagingAndDeliveryApplication - Started PackagingAndDeliveryApplication in 12.067 seconds (JVM running for 14.296)
+2022-05-13 23:32:57,048 [main] INFO   c.r.p.PackagingAndDeliveryApplication - Hi there
+2022-05-13 23:33:42,928 [http-nio-8080-exec-1] INFO   o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-13 23:33:42,929 [http-nio-8080-exec-1] INFO   o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-13 23:33:42,931 [http-nio-8080-exec-1] INFO   o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-05-13 23:33:43,598 [http-nio-8080-exec-1] INFO   c.r.p.PackagingAndDeliveryController - Packaging and Delivery charge is being calculated for PackagingAndDeliveryRequest[componentType=Integral item, count=3]
+2022-05-13 23:33:43,628 [http-nio-8080-exec-1] INFO   c.r.p.PackagingAndDeliveryService - The component type is Integral item
+2022-05-13 23:33:43,628 [http-nio-8080-exec-1] INFO   c.r.p.PackagingAndDeliveryService - The count of the item is 3
+2022-05-13 23:33:43,629 [http-nio-8080-exec-1] INFO   c.r.p.PackagingAndDeliveryService - Service : Package cost is calculated to be 0 
+2022-05-13 23:33:43,629 [http-nio-8080-exec-1] INFO   c.r.p.PackagingAndDeliveryService - Service : Delivery cost is calculated to be 0 
+2022-05-13 23:33:43,629 [http-nio-8080-exec-1] INFO   c.r.p.PackagingAndDeliveryService - Service : Total cost is calculated to be 0 
+2022-05-13 23:33:43,629 [http-nio-8080-exec-1] INFO   c.r.p.PackagingAndDeliveryController - The package and delivery chargees has been calculate to be 0
+2022-05-13 23:36:07,221 [RMI TCP Connection(11)-127.0.0.1] INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-05-13 23:36:07,368 [RMI TCP Connection(11)-127.0.0.1] INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 23:36:07,370 [RMI TCP Connection(11)-127.0.0.1] INFO   o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-13 23:36:07,381 [RMI TCP Connection(11)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-05-13 23:36:07,392 [RMI TCP Connection(11)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-05-13 23:36:18,540 [main] INFO   c.r.p.PackagingAndDeliveryApplication - Starting PackagingAndDeliveryApplication using Java 16.0.2 on LTIN172959 with PID 7692 (C:\Users\842186\OneDrive - Cognizant\Documents\FSE-ROM\packagingAndDelivery.zip_expanded\packagingAndDelivery\target\classes started by 842186 in C:\Users\842186\OneDrive - Cognizant\Documents\FSE-ROM\packagingAndDelivery.zip_expanded\packagingAndDelivery)
+2022-05-13 23:36:18,546 [main] INFO   c.r.p.PackagingAndDeliveryApplication - No active profile set, falling back to 1 default profile: "default"
+2022-05-13 23:36:19,952 [main] INFO   o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-13 23:36:19,984 [main] INFO   o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2022-05-13 23:36:20,303 [main] INFO   o.s.c.context.scope.GenericScope - BeanFactory id=5c13016f-4753-32ae-8ecb-1896d5764f29
+2022-05-13 23:36:21,697 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-05-13 23:36:21,752 [main] INFO   o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-13 23:36:21,758 [main] INFO   o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-13 23:36:21,759 [main] INFO   o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-13 23:36:22,451 [main] INFO   o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-05-13 23:36:22,452 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3815 ms
+2022-05-13 23:36:22,868 [main] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-05-13 23:36:23,547 [main] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-05-13 23:36:23,682 [main] INFO   o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-13 23:36:23,849 [main] INFO   org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-13 23:36:24,368 [main] INFO   o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-13 23:36:24,892 [main] INFO   org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-05-13 23:36:25,633 [main] INFO   o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-13 23:36:25,661 [main] INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-13 23:36:25,770 [main] WARN   o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-13 23:36:26,421 [main] WARN   o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-05-13 23:36:28,058 [main] INFO   o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-05-13 23:36:28,522 [main] INFO   o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-05-13 23:36:28,585 [main] INFO   o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-13 23:36:29,971 [main] INFO   o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-05-13 23:36:29,996 [main] INFO   c.r.p.PackagingAndDeliveryApplication - Started PackagingAndDeliveryApplication in 13.8 seconds (JVM running for 15.438)
+2022-05-13 23:36:30,004 [main] INFO   c.r.p.PackagingAndDeliveryApplication - Hi there
+2022-05-13 23:36:34,691 [http-nio-8080-exec-2] INFO   o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-13 23:36:34,692 [http-nio-8080-exec-2] INFO   o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-13 23:36:34,696 [http-nio-8080-exec-2] INFO   o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-05-13 23:36:35,312 [http-nio-8080-exec-2] INFO   c.r.p.PackagingAndDeliveryController - Packaging and Delivery charge is being calculated for PackagingAndDeliveryRequest[componentType=Integral item, count=3]
+2022-05-13 23:36:35,346 [http-nio-8080-exec-2] INFO   c.r.p.PackagingAndDeliveryService - The component type is Integral item
+2022-05-13 23:36:35,347 [http-nio-8080-exec-2] INFO   c.r.p.PackagingAndDeliveryService - The count of the item is 3
+2022-05-13 23:36:35,347 [http-nio-8080-exec-2] INFO   c.r.p.PackagingAndDeliveryService - Service : Package cost is calculated to be 0 
+2022-05-13 23:36:35,347 [http-nio-8080-exec-2] INFO   c.r.p.PackagingAndDeliveryService - Service : Delivery cost is calculated to be 0 
+2022-05-13 23:36:35,347 [http-nio-8080-exec-2] INFO   c.r.p.PackagingAndDeliveryService - Service : Total cost is calculated to be 0 
+2022-05-13 23:36:35,348 [http-nio-8080-exec-2] INFO   c.r.p.PackagingAndDeliveryController - The package and delivery chargees has been calculate to be 0
+2022-05-14 00:09:10,286 [RMI TCP Connection(41)-127.0.0.1] INFO   o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-05-14 00:09:10,851 [RMI TCP Connection(41)-127.0.0.1] INFO   o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 00:09:10,884 [RMI TCP Connection(41)-127.0.0.1] INFO   o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-05-14 00:09:10,915 [RMI TCP Connection(41)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-05-14 00:09:10,942 [RMI TCP Connection(41)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
