@@ -1,4 +1,6 @@
 package com.returnOrderManagement.packagingAndDelivery;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 /* INFO-
  * Purpose: 
@@ -23,33 +25,38 @@ public class PackagingAndDeliveryConfig {
 	@Value("${integral.pakcage.cost:100}")
 	private int integralItemPackageCost;
 	
-	@Value("${accessory.package.cost:$accessory.package.cost.default}}")
+	@Value("${accessory.package.cost:50}")
 	private int accessoryPackageCost;
 	
-	@Value("${sheath.packacge.cost:${sheath.packacge.cost.default}}")
+	@Value("${sheath.packacge.cost:50}")
 	private int sheathPackageCost;
 	
-	@Value("${integral.delivery.cost:${integral.delivery.cost.default}}")
+	@Value("${integral.delivery.cost:200}")
 	private int integralItemDeliveryCost;
 	
-	@Value("${accessory.delivery.cost:${accessory.delivery.cost.default}}")
+	@Value("${accessory.delivery.cost:100}")
 	private int accessoryDeliveryCost;
 
+	private static final Logger log = LoggerFactory.getLogger(PackagingAndDeliveryController.class);
 	//------------Set pre-defined values to packageAndDelivery object----------//
 	public PackagingAndDelivery setPredefinedCost() {
 		
 		//*******Create packageAndDelivery object*******//
 		
 		PackagingAndDelivery pd=new PackagingAndDelivery();
-		
-		//*******calling setter to set the cost*******//
-		
+		//*******calling setter to set the cost*******/
 		pd.setAccessoryDeliveryCost(accessoryDeliveryCost);
 		pd.setAccessoryPackageCost(accessoryPackageCost);
 		pd.setIntegralItemDeliveryCost(integralItemDeliveryCost);
 		pd.setIntegralItemPackageCost(integralItemPackageCost);
 		pd.setSheathPackageCost(sheathPackageCost);
+		log.info("accessoryDeliveryCost={}",pd.getAccessoryDeliveryCost());
+		log.info("accessoryPackageCost={}",pd.getAccessoryPackageCost());
+		log.info("integralItemDeliveryCost={}",pd.getIntegralItemDeliveryCost());
+		log.info("integralItemPackageCost={}",pd.getIntegralItemPackageCost());
+		log.info("sheathPackageCost={}",pd.getSheathPackageCost());
 		return pd;
+		
 	}
 	
 }
